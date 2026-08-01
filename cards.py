@@ -1,4 +1,4 @@
-''' This module generates a playing deck of cards and basic combinations for the game.'''
+""" This module generates a playing deck of cards and basic combinations for the game."""
 
 # --- Constants ---
 RANKS = ['2','3','4','5','6','7','8','9','T','J','Q','K','A']
@@ -55,13 +55,11 @@ def label_hand(hand):
 def tally_combos(combos:list):
     combo_tally = {}
 
-    for hand in combos:
-        hand = label_hand(hand)
+    for i in combos:
+        hand = label_hand(i)
         
-        if hand in combo_tally:
-            combo_tally[hand] += 1
-        else:
-            combo_tally[hand] = 1
+        combo_tally[hand] = combo_tally.get(hand, 0) + 1
+
     return combo_tally
 
 # --- Card removal ---
