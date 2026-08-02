@@ -3,7 +3,7 @@
 **Status**: Completed ✅
 
 ### Hand Classification
-Taking a dealt two-card hand, i.e., `('7s','Ah')` (7 of spades, Ace of hearts) and turing it into a standard classification 'A7o'.
+Taking a dealt two-card hand, i.e., `('7s','Ah')` (7 of spades, Ace of hearts) and turing it into a standard classification `'A7o'`.
 
 This math turns 1326 hand combinations into 169 different classes, which serve as the basis for further poker mathematics.
 
