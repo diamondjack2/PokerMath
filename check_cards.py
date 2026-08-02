@@ -1,3 +1,5 @@
+""" This helper file checks that cards.py math is correct when counting and generating cards and combos."""
+
 import cards
 
 KNOWN_CARDS = ('Jd', '7s','2c','As','Js')

@@ -15,4 +15,4 @@ Roadmap:
 4. Bankroll Mgmt 
 5. Hand History Parsing 
 6. A Toy Solver 
-
+7. Front End (AI assisted)
