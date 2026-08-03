@@ -35,13 +35,3 @@ In `cards.py`, `filter_live_combos()` keeps all possible combinations left based
 
 ### How to run:
 Simply run `python check_cards.py` to verify that each of the 17 values pass. 
-
-
-### Roadmap:
-1. Cards, Combinations, & Removal ✅
-2. Adding Rules of the game (which hand wins)
-3. Pot Odds, Ranges, Equity 
-4. Bankroll Mgmt 
-5. Hand History Parsing 
-6. A Toy Solver 
-7. Front End (AI assisted)
