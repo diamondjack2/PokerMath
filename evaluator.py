@@ -17,7 +17,7 @@ def convert_ranks(ranks:dict) -> dict:
     
     return mapped_ranks
 
-def count_ranks_suits(seven:tuple) -> dict:
+def count_ranks_suits(seven:tuple) -> tuple[dict,dict]:
     ''' Counts how many ranks and suits are in a given 7 hand tuple, returns dictionary of counts'''
     ranks = {}
     suits = {}
@@ -37,7 +37,7 @@ def find_groups(ranks:dict) -> dict:
     
     return group_counts
 
-def find_flush_suit(suits:dict) -> str:
+def find_flush_suit(suits:dict) -> str | None:
     ''' Takes the suits count dictionary and returns the flush suit as string'''
     flush_suit = None
     for suit , count in suits.items():
