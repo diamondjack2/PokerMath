@@ -3,12 +3,12 @@ A python library for poker math. Combinatorics, removal, hand evaluation, equity
 
 This code and repo is not AI generated and all math is verified by hand and 3rd party checks. 
 
-**Module 1:**
+### Module 1:
 Covers generating a deck, all possible hand combinations, dealing with removal, and combintorics.
 
 Check it out [here](docs/module-1-cards.md).
 
-**Module 2:**
+### Module 2:
 Covers turning random cards into the game of poker. It also hands to be ranked ie: Flush, Two-Pair, etc.
 
 Check it out [here](docs/module-2-evaluator.md).
