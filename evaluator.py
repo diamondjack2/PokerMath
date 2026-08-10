@@ -175,5 +175,14 @@ def evaluate_hand(seven:tuple) -> tuple:
         k3 = groups[1][3]
         k4 = groups[1][4]
         return (1, high_card, k1, k2,k3,k4)
+    
+def compare_hands(hands:list) -> list:
+    '''Takes a list of hands that have been evaluated and returns a list of the winning hands index'''
+    winning_pos = []
+    winning_hand = max(hands)
+    for idx, hand in enumerate(hands):
+        if hand == winning_hand:
+            winning_pos.append(idx)
+    return winning_pos
 
 
