@@ -9,7 +9,7 @@ Covers generating a deck, all possible hand combinations, dealing with removal, 
 Check it out [here](docs/module-1-cards.md).
 
 ### Module 2:
-Covers turning random cards into the game of poker. It also hands to be ranked ie: Flush, Two-Pair, etc.
+Covers turning random cards into the game of poker. It turns 7 random cards into poker ranks ie: Flush, Two-Pair, etc.
 
 Check it out [here](docs/module-2-evaluator.md).
 

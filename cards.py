@@ -63,7 +63,7 @@ def tally_combos(combos:list):
     return combo_tally
 
 # --- Card removal ---
-def filter_live_combos(combos:list, known_cards:tuple):
+def find_combos_left(combos:list, known_cards:tuple):
     possible_combos = []
     
     for combo in combos:
