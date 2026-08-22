@@ -19,6 +19,12 @@ It serves as the foundational piece for grading mathematically optimal decisions
 
 Check it out [here](docs/module-3-equity.md).
 
+### Module 4:
+Covers preflop ranges. It expands poker shorthand like `"22+, ATs+, KQo"` into the actual hands it describes, converts those into card combinations, and looks up the right preflop chart for a given position and action. This is what feeds villain's range into the equity engine, and what the preflop trainer grades against.
+
+Check it out [here](docs/module-4-ranges.md).
+
+
 ### How to run"
 python check_cards.py
 python check_evaluator.py
@@ -28,6 +34,6 @@ python check_equity.py
 1. Cards, Combinations, & Removal ✅
 2. Rules of the game (Hand Evaluation) ✅
 3. Equity ✅
-4. Ranges
+4. Ranges ✅
 5. Pot Odds & Grading
 4. Spot Generator
